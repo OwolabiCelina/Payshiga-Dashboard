@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Ojah";
+  src: url("./assets/fonts/ojah/OjahDisplay-Black.otf") format("opentype");
+  font-weight: 900; /* Black */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ojah";
+  src: url("./assets/fonts/ojah/OjahDisplay-Bold.otf") format("opentype");
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ojah";
+  src: url("./assets/fonts/ojah/OjahDisplay-SemiBold.otf") format("opentype");
+  font-weight: 600; /* SemiBold */
+  font-style: normal;
+}
+
+/* Tailwind CSS setup */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
